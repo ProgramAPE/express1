@@ -5,7 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res) {
 
     console.log('testing for a breakpoint');
+    console.log('testing the git push');
     res.send('respond with a resource');
 });
 
 module.exports = router;
+
